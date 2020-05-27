@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "title": {
+      "order": "Заказ книг",
+      "shipping": "Доставка и оплата",
+      "contacts": "Контакты",
+      "cart": "Заказы"
+    }
+  },
+  "header": {
+    "title": "ТД «ДЮНА»",
+    "callback": "Заказать звонок"
+  },
+  "login": {
+    "title": "Заказ учебников на {0}-{1} учебный год",
+    "label": {
+      "login": "Логин",
+      "password": "Пароль"
+    },
+    "error": {
+      "login-empty": "Введите логин",
+      "password-empty": "Введите пароль"
+    },
+    "submit": "Войти",
+    "reset": "Очистить"
+  },
+  "order": {
+    "step-one": {
+      "title": "Проверьте свои реквизиты"
+    },
+    "step-two": {
+      "title": "Выберите издательство"
+    },
+    "step-three": {
+      "title": "Заполните данные Вашего заказа"
+    },
+    "next": "Далее",
+    "prev": "Назад",
+    "cart": "В козину",
+    "view": "Заказ № {0} от {1}",
+    "publisher": "Издательство: {0}",
+    "not-found": "Заказ №{0} не найден",
+    "fail-form": "Не удалось отправить заказ"
+  },
+  "admin": {
+    "title": "Добавление пользователя"
+  },
+  "user-info": {
+    "label": {
+      "login": "Логин",
+      "password": "Пароль",
+      "name": "Имя",
+      "address": "Адрес",
+      "inn": "ИНН",
+      "kpp": "КПП",
+      "ogrn": "ОГРН",
+      "okpo": "ОКПО",
+      "bank": "Банк",
+      "bik": "БИК",
+      "bank_address": "Адрес банка",
+      "checking_account": "Рассчетный счет",
+      "correspondent_account": "Корреспондентский счет",
+      "phone": "Контактный телефон",
+      "email": "Email",
+      "region": "Город"
+    },
+    "error": {
+      "login-empty": "Логин @:error.required",
+      "password-empty": "Пароль @:error.required",
+      "name-empty": "Имя @:error.required",
+      "address-empty": "Адрес @:error.required",
+      "inn-empty": "ИНН @:error.required",
+      "inn-incorrect": "ИНН должен содержать 10 цифр",
+      "kpp-empty": "КПП @:error.required",
+      "kpp-incorrect": "КПП должен содержать 9 цифр",
+      "ogrn-empty": "ОГРН @:error.required",
+      "ogrn-incorrect": "ОГРН должен содержать 13 цифр",
+      "okpo-empty": "ОКПО @:error.required",
+      "okpo-incorrect": "ОКПО должен содержать 8 или 10 цифр",
+      "bank-empty": "Банк @:error.required",
+      "bik-empty": "БИК @:error.required",
+      "bik-incorrect": "БИК должен содержать 9 цифр",
+      "bank_address-empty": "Адрес банка @:error.required",
+      "checking_account-empty": "Рассчетный счет @:error.required",
+      "correspondent_account-empty": "Корреспондентский счет @:error.required",
+      "phone-empty": "Контактный телефон @:error.required",
+      "email-empty": "Email @:error.required",
+      "region-empty": "Город @:error.required"
+    }
+  },
+  "error": {
+    "required": "обязательно для заполнения"
+  },
+  "button": {
+    "clear": "Очистить",
+    "save": "Сохранить",
+    "choose": "Выбрать",
+    "search": "Поиск",
+    "change": "Изменить",
+    "form": "Оформить",
+    "send": "Отправить",
+    "close": "Закрыть"
+  },
+  "message": {
+    "login-fail": "Пользователь с указанным именем и паролем не найден",
+    "user-add": {
+      "success": "Пользователь успешно добавлен.",
+      "fail": "Не удалось добавить пользователя",
+      "fail-validate": "Данные пользователя указаны некорректно",
+      "fail-duplicate": "Пользователь с таким логином уже существует"
+    }
+  },
+  "404": "Страница не найдена",
+  "book": {
+    "table-caption": {
+      "author": "Автор",
+      "name": "Предмет",
+      "grade": "Класс",
+      "price": "Цена",
+      "count": "Количество"
+    }
+  },
+  "callback": {
+    "title": "Укажите свои контактные данные",
+    "name": "Имя",
+    "phone": "Телефон",
+    "name-empty": "Поле \"Имя\" @:error.required",
+    "phone-empty": "Поле \"Телефон\" @:error.required",
+    "success": "Запрос на звонок успешно отправлен",
+    "error": "Не удалось отправить запрос на звонок"
+  }
+}

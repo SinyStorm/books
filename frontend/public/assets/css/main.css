@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+}
+
+#app {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#main-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #409EFF
+}
+#phone-link {
+    width: 125px;
+}
+#login-form {
+    width: 350px;
+    margin: auto;
+}
+
+.is-success .el-step__icon.is-icon {
+    border-radius: 50%;
+    border: 2px solid;
+    height: 24px;
+    width: 24px;
+}
+
+.form-card {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card--publisher {
+    margin-bottom: 20px;
+    flex-shrink:0;
+    border: 4px solid transparent;
+    position: relative;
+}
+
+.el-icon-check.card--publisher-icon {
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    background: #409EFF;
+    font-size: 34px;
+    color: #fff;
+    display: none;
+}
+
+.card--publisher.chosen {
+    border: 4px solid #409EFF;
+}
+.card--publisher.chosen .card--publisher-icon {
+    display: block;
+}
+
+.el-pagination .el-select .el-input {
+    width: 150px!important;
+}
+
+.text-align--center {
+    text-align: center;
+}
+.text-align--right {
+    text-align: right;
+}
+
+.text--primary { color: #409EFF; }
+
+.is-bold {
+    font-weight: bold!important;
+}
+
+.m-0 {
+    margin: 0!important;
+}
+.mb-0 {
+    margin-bottom: 0!important;
+}
+
+.mt-3 {
+    margin-top: 1.75rem!important;
+}
+.mb-3 {
+    margin-bottom: 1.75rem!important;
+}
+
+.display--flex { display: flex }
+.justify--space-between {
+    justify-content: space-between;
+}
+
+.text-content {
+    font-size: 20px;
+}

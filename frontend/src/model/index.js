@@ -1,0 +1,6 @@
+export { default as UserInfo} from './user-info'
+export { default as User} from './user'
+export { default as Publisher} from './publisher'
+export { default as Book } from './book'
+export { default as Order } from './order'
+export { default as Manager } from './manager'
