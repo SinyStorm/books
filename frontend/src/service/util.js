@@ -23,7 +23,7 @@ API.interceptors.response.use(
          });
       }
 
-      return store.dispatch('clearAuth').then(() => router.push({path: '/login'}))
+      return store.dispatch('auth/logout').then(() => router.push({path: '/login'}))
    });
 
 export default API
