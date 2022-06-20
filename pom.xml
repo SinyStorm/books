@@ -26,7 +26,7 @@
 
     <properties>
         <main.basedir>${project.basedir}</main.basedir>
-        <kotlin.version>1.3.61</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
         <jooq.datasource.url>jdbc:postgresql://localhost:5432/books</jooq.datasource.url>
         <jooq.datasource.username></jooq.datasource.username>
         <jooq.datasource.password></jooq.datasource.password>
